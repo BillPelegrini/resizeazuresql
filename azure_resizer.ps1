@@ -8,9 +8,9 @@ Update-AzConfig -DisplayBreakingChangeWarning $false
 Import-Module Az.Sql
 
 # Defines environment variables
-$resourceGroupName = "Homologation"
+$resourceGroupName = "homolog"
 $serverName = "homolog"
-$databaseName = "prerelease"
+$databaseName = "homolog"
 $edition = "Premium"
 $requestedServiceObjectiveName = "P1"
 
